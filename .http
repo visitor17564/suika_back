@@ -1,0 +1,12 @@
+### 랭크등록
+POST http://localhost:3000/ranks/create
+Content-Type: application/json
+
+{
+  "name": "visitor4",
+  "score": "400"
+}
+
+### 랭크조회
+GET http://localhost:3000/ranks
+Content-Type: application/json
